@@ -1,0 +1,158 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: linear-gradient(#4EB9C7 0%, #33ADBD 100%);
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.hero {
+    z-index: 2;
+    position: fixed;
+    flex-shrink: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    padding-top: 7%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+a {
+    z-index: 4;
+    background: none;
+    font-size: 20px;
+    color: #007899;
+    padding: 2%;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+h2 {
+    color: #dca5a5;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'DM Serif Display', serif;
+    background: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div:hover {
+    color: #ffcdcd;
+    box-shadow: 1pt 2pt 6pt 3pt #48c1cc;
+}
+
+.intro {
+    height: 30%;
+    min-height: 15%;
+    width: 70%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 5%;
+    font-size: 20px;
+    color: #ffd7d7;
+    background-color: #33ADBD;
+    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
+    transition: 0.8s;
+}
+
+.card2 {
+    height: 30%;
+    min-height: 15%;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    font-size: 20px;
+    color: #ffd7d7;
+    background-color: #33ADBD;
+    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
+    transition: 0.8s;
+}
+
+.littleBoxes {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ImageLink1 a {
+    background-image: url('https://msjamesm.github.io/DU-Module-1-Challenge-1/assets/images/online-reputation-management.jpg');
+    opacity: 80%;
+    padding: 5%;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+#ImageLink2 {
+    background-image: none;
+    background-color: #b66464;
+    opacity: 80%;
+    padding: 5%;
+    height: 20px;
+    width: 20px;
+}
+
+#Projects {
+    margin: 0;
+}
+
+#Contact {
+    margin: 0;
+}
+
+.card3 {
+    height: 30%;
+    min-height: 15%;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    font-size: 20px;
+    color: #ffd7d7;
+    background-color: #33ADBD;
+    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
+    transition: 0.8s;
+}
+
+.card4 {
+    height: 30%;
+    min-height: 15%;
+    width: 70%;
+    margin-top: 10%;
+    padding: 5%;
+    font-size: 20px;
+    color: #ffd7d7;
+    background-color: #36AEBE;
+}
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.footer-image {
+    position: absolute;
+    flex-shrink: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
