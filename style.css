@@ -14,9 +14,8 @@ header {
 }
 
 .hero {
-    z-index: 2;
+    z-index: 3;
     position: fixed;
-    flex-shrink: auto;
     max-height: 100%;
     max-width: 100%;
 }
@@ -26,27 +25,54 @@ nav {
     padding-top: 7%;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background: none;
 }
 
-a {
+nav a {
     z-index: 4;
     background: none;
     font-size: 20px;
-    color: #007899;
+    color: #0287a8;
     padding: 2%;
     font-family: 'DM Serif Display', serif;
     text-decoration: none;
     list-style: none;
 }
 
-h2 {
-    color: #dca5a5;
+nav a:hover {
+    color: #D8B0C0;
+    text-shadow: 2px 1px 2px 2px #c56767;
+    transition: 0.6s;
+}
+
+h1 {
+    color: #D8B0C0;
+    text-shadow: 1px 2px 5px #b479aa;
     text-align: center;
-    font-size: 45px;
+    font-size: 125px;
+    font-family: 'Kristi', cursive;
+    margin-top: 6%;
+    margin-bottom: 0;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
     font-family: 'DM Serif Display', serif;
-    background: none;
+    list-style: none;
+    color: #6be5f0;
+    transition: 0.9s;
+}
+
+p {
+    color: #2a94a9;
+    line-height: 0%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+
 }
 
 .container {
@@ -55,104 +81,167 @@ h2 {
     justify-content: center;
 }
 
-div:hover {
-    color: #ffcdcd;
-    box-shadow: 1pt 2pt 6pt 3pt #48c1cc;
-}
-
-.intro {
-    height: 30%;
-    min-height: 15%;
+.Intro {
     width: 70%;
-    margin-top: 20%;
+    text-align: center;
+    margin-top: 15%;
     margin-bottom: 10%;
-    padding: 5%;
-    font-size: 20px;
-    color: #ffd7d7;
+    padding: 4%;
+    font-size: 17.5px;
+    color: #68d3e1;
     background-color: #33ADBD;
     box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
     transition: 0.8s;
 }
 
-.card2 {
-    height: 30%;
-    min-height: 15%;
-    width: 70%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 5%;
-    font-size: 20px;
-    color: #ffd7d7;
-    background-color: #33ADBD;
-    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
-    transition: 0.8s;
-}
-
-.littleBoxes {
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#ImageLink1 a {
-    background-image: url('https://msjamesm.github.io/DU-Module-1-Challenge-1/assets/images/online-reputation-management.jpg');
-    opacity: 80%;
-    padding: 5%;
-    max-height: 20px;
-    max-width: 20px;
-}
-
-#ImageLink2 {
-    background-image: none;
-    background-color: #b66464;
-    opacity: 80%;
-    padding: 5%;
-    height: 20px;
-    width: 20px;
-}
-
-#Projects {
-    margin: 0;
-}
-
-#Contact {
-    margin: 0;
-}
-
-.card3 {
-    height: 30%;
-    min-height: 15%;
-    width: 70%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 5%;
-    font-size: 20px;
-    color: #ffd7d7;
-    background-color: #33ADBD;
-    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
-    transition: 0.8s;
-}
-
-.card4 {
-    height: 30%;
-    min-height: 15%;
-    width: 70%;
-    margin-top: 10%;
-    padding: 5%;
-    font-size: 20px;
-    color: #ffd7d7;
-    background-color: #36AEBE;
-}
-
-footer {
+.Projects {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 30%;
+    width: 76%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+    font-size: 27px;
+    background-color: #33ADBD;
+    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
+    transition: .90s;
 }
 
-.footer-image {
-    position: absolute;
-    flex-shrink: auto;
-    max-height: 100%;
-    max-width: 100%;
+.Projects a {
+    text-decoration: none;
+    list-style: none;
+    color: #6be5f0;
+    transition: 0.9s;
+}
+
+section:hover, div:hover {
+    color: #b1f9ff;
+    box-shadow: 0pt -2pt 5pt 1pt #58c4d2;
+    transition: 0.6s;
+}
+
+#PreworkStudyGuideLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/PreworkStudyGuideScreenshit.png');
+    opacity: 90%;
+    padding: 6%;
+    height: 110%;
+    max-width: 150%;
+    font-family: 'DM Serif Display', serif;
+}
+
+#HoriseonLink {
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/HoriseonScreenshot.png');
+    opacity: 80%;
+    padding: 2%;
+    height: 10%;
+    font-family: 'DM Serif Display', serif;
+}
+
+#PlaceholderLink1 {
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/Placeholder1.png');
+    opacity: 80%;
+    padding: 2%;
+    height: 10%;
+    font-family: 'DM Serif Display', serif;
+}
+
+#PlaceholderLink2 {
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/Placeholder2.png');
+    background-color: #eba2a2;
+    opacity: 80%;
+    padding: 2%;
+    height: 10%;
+    font-family: 'DM Serif Display', serif;
+}
+
+#navLinkProjects {
+    margin: 0;
+}
+
+#navLinkContact {
+    margin: 0;
+}
+
+#navLinkAbout {
+    margin: 0;
+}
+
+.Contact {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30%;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 12%;
+    padding: 5%;
+    font-size: 25px;
+    background-color: #33ADBD;
+    box-shadow: 0pt 3pt 4pt 0pt #33ADBD;
+    transition: 0.8s;
+}
+
+#contactLinks {
+    text-decoration: none;
+    list-style: none;
+    color: #6be5f0;
+    transition: 0.9s;
+    font-family: 'DM Serif Display', serif;
+}
+
+#contactEmail {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'DM Serif Display', serif;
+    color: #e9c0cf;
+    text-shadow: 1px 2px 5px #af74a5;
+}
+
+#contactAtFont {
+    color: #46c2cd;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#lineHeightGap {
+    display: block;
+    padding-top: 15px;
+    height: 20px;
+}
+
+.About {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding: 3%;
+    font-size: 20px;
+    color: #6be5f0;
+    background-color: #36AEBE;
+    box-shadow: none;
+}
+
+#footerImage {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
