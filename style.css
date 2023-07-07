@@ -20,6 +20,14 @@ header {
     max-width: 100%;
 }
 
+#Projects {
+    scroll-margin-top: 70vh;
+}
+
+#Contact {
+    scroll-margin-top: 40vh;
+}
+
 nav {
     width: 100%;
     padding-top: 7%;
@@ -144,20 +152,20 @@ section:hover, div:hover {
     font-family: 'DM Serif Display', serif;
 }
 
-#PlaceholderLink1 {
+#RoadTripBuddy {
     display: flex;
     justify-content: center;
-    background-image: url('assets/Placeholder1.png');
+    background-image: url('assets/roadTripBuddyScreenshot.png');
     opacity: 80%;
     padding: 2%;
     height: 10%;
     font-family: 'DM Serif Display', serif;
 }
 
-#PlaceholderLink2 {
+#Blueit {
     display: flex;
     justify-content: center;
-    background-image: url('assets/Placeholder2.png');
+    background-image: url('assets/blueitScreenshot.png');
     background-color: #eba2a2;
     opacity: 80%;
     padding: 2%;
